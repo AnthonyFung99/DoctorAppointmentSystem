@@ -1,0 +1,1847 @@
+{
+
+    "doctors": [
+      {
+        "name": "Connor Benjamin",
+        "email": "'connor.benjamin1@doctor.com'",
+        "password": "'hashed_password'",
+        "bio": "'Family Medicine Doctor Connor Benjamin is known for building long-term patient relationships",
+        "image_url": "and is achieving high patient satisfaction.'",
+        "exp": "'/img/male.svg'",
+        "total_patients": "9",
+        "online_fee": "1482",
+        "visit_fee": "1823"
+      }
+    ],
+    "doctor_clinic": [
+      {
+        "doctor_id": "1",
+        "clinic_name": "'City General Hospital'",
+        "clinic_fee": "1500.00"
+      },
+      {
+        "doctor_id": "2",
+        "clinic_name": "'Children''s Health Clinic'",
+        "clinic_fee": "1200.00"
+      },
+      {
+        "doctor_id": "3",
+        "clinic_name": "'Skin & Laser Center'",
+        "clinic_fee": "2000.00"
+      },
+      {
+        "doctor_id": "4",
+        "clinic_name": "'Elite Ortho Care'",
+        "clinic_fee": "1800.00"
+      },
+      {
+        "doctor_id": "5",
+        "clinic_name": "'MindWell Psychiatry'",
+        "clinic_fee": "1700.00"
+      },
+      {
+        "doctor_id": "6",
+        "clinic_name": "'Heartbeat Cardiology'",
+        "clinic_fee": "2200.00"
+      },
+      {
+        "doctor_id": "7",
+        "clinic_name": "'Digestive Health Clinic'",
+        "clinic_fee": "1600.00"
+      },
+      {
+        "doctor_id": "8",
+        "clinic_name": "'NeuroCare Institute'",
+        "clinic_fee": "2500.00"
+      },
+      {
+        "doctor_id": "9",
+        "clinic_name": "'Hope Cancer Center'",
+        "clinic_fee": "2800.00"
+      },
+      {
+        "doctor_id": "10",
+        "clinic_name": "'Urology Specialists'",
+        "clinic_fee": "1900.00"
+      },
+      {
+        "doctor_id": "11",
+        "clinic_name": "'Endocrine Wellness'",
+        "clinic_fee": "1750.00"
+      },
+      {
+        "doctor_id": "12",
+        "clinic_name": "'Lung & Respiratory Clinic'",
+        "clinic_fee": "1850.00"
+      },
+      {
+        "doctor_id": "13",
+        "clinic_name": "'Joint & Autoimmune Center'",
+        "clinic_fee": "1950.00"
+      },
+      {
+        "doctor_id": "14",
+        "clinic_name": "'Kidney Care Clinic'",
+        "clinic_fee": "1650.00"
+      },
+      {
+        "doctor_id": "15",
+        "clinic_name": "'Vision Eye Center'",
+        "clinic_fee": "1400.00"
+      },
+      {
+        "doctor_id": "16",
+        "clinic_name": "'Premier ENT Clinic'",
+        "clinic_fee": "1600.00"
+      },
+      {
+        "doctor_id": "17",
+        "clinic_name": "'Evergreen Geriatric Care'",
+        "clinic_fee": "1300.00"
+      },
+      {
+        "doctor_id": "18",
+        "clinic_name": "'Infectious Disease Unit'",
+        "clinic_fee": "2100.00"
+      },
+      {
+        "doctor_id": "19",
+        "clinic_name": "'Allergy & Asthma Clinic'",
+        "clinic_fee": "1550.00"
+      },
+      {
+        "doctor_id": "20",
+        "clinic_name": "'Sports Injury Rehab'",
+        "clinic_fee": "1700.00"
+      },
+      {
+        "doctor_id": "21",
+        "clinic_name": "'Pain Management Solutions'",
+        "clinic_fee": "1800.00"
+      },
+      {
+        "doctor_id": "22",
+        "clinic_name": "'Rehab & Wellness Center'",
+        "clinic_fee": "1600.00"
+      },
+      {
+        "doctor_id": "23",
+        "clinic_name": "'Emergency Services'",
+        "clinic_fee": "2000.00"
+      },
+      {
+        "doctor_id": "24",
+        "clinic_name": "'Radiology Imaging Center'",
+        "clinic_fee": "1900.00"
+      },
+      {
+        "doctor_id": "25",
+        "clinic_name": "'Urgent Care Clinic'",
+        "clinic_fee": "1500.00"
+      },
+      {
+        "doctor_id": "26",
+        "clinic_name": "'Community Family Clinic'",
+        "clinic_fee": "1450.00"
+      },
+      {
+        "doctor_id": "27",
+        "clinic_name": "'Pediatric Neuro Clinic'",
+        "clinic_fee": "2300.00"
+      },
+      {
+        "doctor_id": "28",
+        "clinic_name": "'CardioThoracic Surgical Inst.'",
+        "clinic_fee": "3500.00"
+      },
+      {
+        "doctor_id": "29",
+        "clinic_name": "'Fertility & Wellness Clinic'",
+        "clinic_fee": "2100.00"
+      },
+      {
+        "doctor_id": "30",
+        "clinic_name": "'Oncology Surgery Center'",
+        "clinic_fee": "3000.00"
+      },
+      {
+        "doctor_id": "31",
+        "clinic_name": "'Aesthetic & Plastic Clinic'",
+        "clinic_fee": "2700.00"
+      },
+      {
+        "doctor_id": "32",
+        "clinic_name": "'Senior Mental Health'",
+        "clinic_fee": "1650.00"
+      },
+      {
+        "doctor_id": "33",
+        "clinic_name": "'Heart Solutions Institute'",
+        "clinic_fee": "2400.00"
+      },
+      {
+        "doctor_id": "34",
+        "clinic_name": "'Neurological Surgery Group'",
+        "clinic_fee": "3200.00"
+      },
+      {
+        "doctor_id": "35",
+        "clinic_name": "'Adolescent Health Center'",
+        "clinic_fee": "1400.00"
+      },
+      {
+        "doctor_id": "36",
+        "clinic_name": "'Upper Limb Surgery Center'",
+        "clinic_fee": "2000.00"
+      },
+      {
+        "doctor_id": "37",
+        "clinic_name": "'Sleep Disorders Clinic'",
+        "clinic_fee": "1800.00"
+      },
+      {
+        "doctor_id": "38",
+        "clinic_name": "'Compassionate Care Hospice'",
+        "clinic_fee": "1200.00"
+      },
+      {
+        "doctor_id": "39",
+        "clinic_name": "'Bariatric Surgery Institute'",
+        "clinic_fee": "3100.00"
+      },
+      {
+        "doctor_id": "40",
+        "clinic_name": "'Endocrine Surgery Unit'",
+        "clinic_fee": "2900.00"
+      },
+      {
+        "doctor_id": "41",
+        "clinic_name": "'Vascular Health Clinic'",
+        "clinic_fee": "2300.00"
+      },
+      {
+        "doctor_id": "42",
+        "clinic_name": "'Advanced Infectious Disease'",
+        "clinic_fee": "2200.00"
+      },
+      {
+        "doctor_id": "43",
+        "clinic_name": "'Forensic Mental Health'",
+        "clinic_fee": "1900.00"
+      },
+      {
+        "doctor_id": "44",
+        "clinic_name": "'Genetics & Genomics Clinic'",
+        "clinic_fee": "2600.00"
+      },
+      {
+        "doctor_id": "45",
+        "clinic_name": "'Critical Care Hospital'",
+        "clinic_fee": "2500.00"
+      },
+      {
+        "doctor_id": "46",
+        "clinic_name": "'Pediatric ID Clinic'",
+        "clinic_fee": "1700.00"
+      },
+      {
+        "doctor_id": "47",
+        "clinic_name": "'Rheumatology Associates'",
+        "clinic_fee": "1950.00"
+      },
+      {
+        "doctor_id": "48",
+        "clinic_name": "'Sports Performance & Rehab'",
+        "clinic_fee": "1600.00"
+      },
+      {
+        "doctor_id": "49",
+        "clinic_name": "'Dermatology Pathology Lab'",
+        "clinic_fee": "2100.00"
+      },
+      {
+        "doctor_id": "50",
+        "clinic_name": "'Genetic Counseling Center'",
+        "clinic_fee": "2000.00"
+      }
+    ],
+    "specialties": [
+      {
+        "name": "Cardiology"
+      },
+      {
+        "name": "Pediatrics"
+      },
+      {
+        "name": "Dermatology"
+      },
+      {
+        "name": "Orthopedics"
+      },
+      {
+        "name": "Psychiatry"
+      },
+      {
+        "name": "Gastroenterology"
+      },
+      {
+        "name": "Neurology"
+      },
+      {
+        "name": "Oncology"
+      },
+      {
+        "name": "Urology"
+      },
+      {
+        "name": "Endocrinology"
+      },
+      {
+        "name": "Pulmonology"
+      },
+      {
+        "name": "Rheumatology"
+      },
+      {
+        "name": "Nephrology"
+      },
+      {
+        "name": "Ophthalmology"
+      },
+      {
+        "name": "Otolaryngology"
+      },
+      {
+        "name": "Geriatrics"
+      },
+      {
+        "name": "Infectious Diseases"
+      },
+      {
+        "name": "Allergy & Immunology"
+      },
+      {
+        "name": "Sports Medicine"
+      },
+      {
+        "name": "Pain Management"
+      },
+      {
+        "name": "Physical Medicine & Rehab"
+      },
+      {
+        "name": "Anesthesiology"
+      },
+      {
+        "name": "Radiology"
+      },
+      {
+        "name": "Emergency Medicine"
+      },
+      {
+        "name": "Family Medicine"
+      },
+      {
+        "name": "Pediatric Neurology"
+      },
+      {
+        "name": "Cardiothoracic Surgery"
+      },
+      {
+        "name": "Reproductive Endocrinology"
+      },
+      {
+        "name": "Oncological Surgery"
+      },
+      {
+        "name": "Plastic Surgery"
+      },
+      {
+        "name": "Geriatric Psychiatry"
+      },
+      {
+        "name": "Interventional Cardiology"
+      },
+      {
+        "name": "Neurosurgery"
+      },
+      {
+        "name": "Adolescent Medicine"
+      },
+      {
+        "name": "Hand Surgery"
+      },
+      {
+        "name": "Sleep Medicine"
+      },
+      {
+        "name": "Palliative Care"
+      },
+      {
+        "name": "Bariatric Surgery"
+      },
+      {
+        "name": "Endocrinological Surgery"
+      },
+      {
+        "name": "Vascular Surgery"
+      },
+      {
+        "name": "Medical Genetics"
+      },
+      {
+        "name": "Critical Care Medicine"
+      },
+      {
+        "name": "Forensic Psychiatry"
+      },
+      {
+        "name": "Dermatopathology"
+      },
+      {
+        "name": "Clinical Genetics"
+      },
+      {
+        "name": "Gynocology"
+      },
+      {
+        "name": "Dentistry"
+      },
+      {
+        "name": "Internal Medicine"
+      },
+      {
+        "name": "Dietetics"
+      },
+      {
+        "name": "Podiatry"
+      }
+    ],
+    "doctor_specialties": [
+      {
+        "doctor_id": "1",
+        "specialty_id": "25"
+      },
+      {
+        "doctor_id": "1",
+        "specialty_id": "2"
+      },
+      {
+        "doctor_id": "2",
+        "specialty_id": "2"
+      },
+      {
+        "doctor_id": "2",
+        "specialty_id": "26"
+      },
+      {
+        "doctor_id": "3",
+        "specialty_id": "3"
+      },
+      {
+        "doctor_id": "3",
+        "specialty_id": "44"
+      },
+      {
+        "doctor_id": "4",
+        "specialty_id": "4"
+      },
+      {
+        "doctor_id": "4",
+        "specialty_id": "19"
+      },
+      {
+        "doctor_id": "5",
+        "specialty_id": "5"
+      },
+      {
+        "doctor_id": "5",
+        "specialty_id": "31"
+      },
+      {
+        "doctor_id": "6",
+        "specialty_id": "1"
+      },
+      {
+        "doctor_id": "6",
+        "specialty_id": "33"
+      },
+      {
+        "doctor_id": "7",
+        "specialty_id": "6"
+      },
+      {
+        "doctor_id": "7",
+        "specialty_id": "11"
+      },
+      {
+        "doctor_id": "8",
+        "specialty_id": "7"
+      },
+      {
+        "doctor_id": "8",
+        "specialty_id": "34"
+      },
+      {
+        "doctor_id": "9",
+        "specialty_id": "8"
+      },
+      {
+        "doctor_id": "9",
+        "specialty_id": "29"
+      },
+      {
+        "doctor_id": "10",
+        "specialty_id": "9"
+      },
+      {
+        "doctor_id": "10",
+        "specialty_id": "40"
+      },
+      {
+        "doctor_id": "11",
+        "specialty_id": "10"
+      },
+      {
+        "doctor_id": "11",
+        "specialty_id": "39"
+      },
+      {
+        "doctor_id": "12",
+        "specialty_id": "11"
+      },
+      {
+        "doctor_id": "12",
+        "specialty_id": "37"
+      },
+      {
+        "doctor_id": "13",
+        "specialty_id": "12"
+      },
+      {
+        "doctor_id": "13",
+        "specialty_id": "47"
+      },
+      {
+        "doctor_id": "14",
+        "specialty_id": "13"
+      },
+      {
+        "doctor_id": "14",
+        "specialty_id": "41"
+      },
+      {
+        "doctor_id": "15",
+        "specialty_id": "14"
+      },
+      {
+        "doctor_id": "15",
+        "specialty_id": "35"
+      },
+      {
+        "doctor_id": "16",
+        "specialty_id": "15"
+      },
+      {
+        "doctor_id": "16",
+        "specialty_id": "36"
+      },
+      {
+        "doctor_id": "17",
+        "specialty_id": "16"
+      },
+      {
+        "doctor_id": "17",
+        "specialty_id": "38"
+      },
+      {
+        "doctor_id": "18",
+        "specialty_id": "17"
+      },
+      {
+        "doctor_id": "18",
+        "specialty_id": "42"
+      },
+      {
+        "doctor_id": "19",
+        "specialty_id": "18"
+      },
+      {
+        "doctor_id": "19",
+        "specialty_id": "17"
+      },
+      {
+        "doctor_id": "20",
+        "specialty_id": "19"
+      },
+      {
+        "doctor_id": "20",
+        "specialty_id": "48"
+      },
+      {
+        "doctor_id": "21",
+        "specialty_id": "20"
+      },
+      {
+        "doctor_id": "21",
+        "specialty_id": "43"
+      },
+      {
+        "doctor_id": "22",
+        "specialty_id": "21"
+      },
+      {
+        "doctor_id": "22",
+        "specialty_id": "22"
+      },
+      {
+        "doctor_id": "23",
+        "specialty_id": "22"
+      },
+      {
+        "doctor_id": "23",
+        "specialty_id": "24"
+      },
+      {
+        "doctor_id": "24",
+        "specialty_id": "23"
+      },
+      {
+        "doctor_id": "24",
+        "specialty_id": "49"
+      },
+      {
+        "doctor_id": "25",
+        "specialty_id": "24"
+      },
+      {
+        "doctor_id": "25",
+        "specialty_id": "18"
+      },
+      {
+        "doctor_id": "26",
+        "specialty_id": "25"
+      },
+      {
+        "doctor_id": "26",
+        "specialty_id": "16"
+      },
+      {
+        "doctor_id": "27",
+        "specialty_id": "26"
+      },
+      {
+        "doctor_id": "27",
+        "specialty_id": "7"
+      },
+      {
+        "doctor_id": "28",
+        "specialty_id": "27"
+      },
+      {
+        "doctor_id": "28",
+        "specialty_id": "1"
+      },
+      {
+        "doctor_id": "29",
+        "specialty_id": "28"
+      },
+      {
+        "doctor_id": "29",
+        "specialty_id": "10"
+      },
+      {
+        "doctor_id": "30",
+        "specialty_id": "29"
+      },
+      {
+        "doctor_id": "30",
+        "specialty_id": "8"
+      },
+      {
+        "doctor_id": "31",
+        "specialty_id": "30"
+      },
+      {
+        "doctor_id": "31",
+        "specialty_id": "3"
+      },
+      {
+        "doctor_id": "32",
+        "specialty_id": "31"
+      },
+      {
+        "doctor_id": "32",
+        "specialty_id": "5"
+      },
+      {
+        "doctor_id": "33",
+        "specialty_id": "33"
+      },
+      {
+        "doctor_id": "33",
+        "specialty_id": "1"
+      },
+      {
+        "doctor_id": "34",
+        "specialty_id": "34"
+      },
+      {
+        "doctor_id": "34",
+        "specialty_id": "7"
+      },
+      {
+        "doctor_id": "35",
+        "specialty_id": "35"
+      },
+      {
+        "doctor_id": "35",
+        "specialty_id": "2"
+      },
+      {
+        "doctor_id": "36",
+        "specialty_id": "36"
+      },
+      {
+        "doctor_id": "36",
+        "specialty_id": "4"
+      },
+      {
+        "doctor_id": "37",
+        "specialty_id": "37"
+      },
+      {
+        "doctor_id": "37",
+        "specialty_id": "11"
+      },
+      {
+        "doctor_id": "38",
+        "specialty_id": "38"
+      },
+      {
+        "doctor_id": "38",
+        "specialty_id": "16"
+      },
+      {
+        "doctor_id": "39",
+        "specialty_id": "39"
+      },
+      {
+        "doctor_id": "39",
+        "specialty_id": "6"
+      },
+      {
+        "doctor_id": "40",
+        "specialty_id": "40"
+      },
+      {
+        "doctor_id": "40",
+        "specialty_id": "10"
+      },
+      {
+        "doctor_id": "41",
+        "specialty_id": "41"
+      },
+      {
+        "doctor_id": "41",
+        "specialty_id": "13"
+      },
+      {
+        "doctor_id": "42",
+        "specialty_id": "42"
+      },
+      {
+        "doctor_id": "42",
+        "specialty_id": "17"
+      },
+      {
+        "doctor_id": "43",
+        "specialty_id": "43"
+      },
+      {
+        "doctor_id": "43",
+        "specialty_id": "5"
+      },
+      {
+        "doctor_id": "44",
+        "specialty_id": "44"
+      },
+      {
+        "doctor_id": "44",
+        "specialty_id": "50"
+      },
+      {
+        "doctor_id": "45",
+        "specialty_id": "45"
+      },
+      {
+        "doctor_id": "45",
+        "specialty_id": "24"
+      },
+      {
+        "doctor_id": "46",
+        "specialty_id": "46"
+      },
+      {
+        "doctor_id": "46",
+        "specialty_id": "17"
+      },
+      {
+        "doctor_id": "47",
+        "specialty_id": "47"
+      },
+      {
+        "doctor_id": "47",
+        "specialty_id": "12"
+      },
+      {
+        "doctor_id": "48",
+        "specialty_id": "48"
+      },
+      {
+        "doctor_id": "48",
+        "specialty_id": "19"
+      },
+      {
+        "doctor_id": "49",
+        "specialty_id": "49"
+      },
+      {
+        "doctor_id": "49",
+        "specialty_id": "3"
+      },
+      {
+        "doctor_id": "50",
+        "specialty_id": "50"
+      },
+      {
+        "doctor_id": "50",
+        "specialty_id": "44"
+      }
+    ],
+    "availability": [
+      {
+        "doctor_id": "1",
+        "available_date": "'2025-05-15'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "1",
+        "available_date": "'2025-05-15'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "1",
+        "available_date": "'2025-05-16'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "2",
+        "available_date": "'2025-05-15'",
+        "start_time": "'10:30:00'",
+        "end_time": "'11:30:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "2",
+        "available_date": "'2025-05-15'",
+        "start_time": "'11:30:00'",
+        "end_time": "'12:30:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "2",
+        "available_date": "'2025-05-16'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "3",
+        "available_date": "'2025-05-16'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "3",
+        "available_date": "'2025-05-16'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "3",
+        "available_date": "'2025-05-17'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "4",
+        "available_date": "'2025-05-16'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "4",
+        "available_date": "'2025-05-16'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "5",
+        "available_date": "'2025-05-17'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "5",
+        "available_date": "'2025-05-17'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "6",
+        "available_date": "'2025-05-17'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "6",
+        "available_date": "'2025-05-18'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "7",
+        "available_date": "'2025-05-18'",
+        "start_time": "'09:30:00'",
+        "end_time": "'10:30:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "7",
+        "available_date": "'2025-05-18'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "8",
+        "available_date": "'2025-05-18'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "8",
+        "available_date": "'2025-05-19'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "9",
+        "available_date": "'2025-05-19'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "9",
+        "available_date": "'2025-05-19'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "10",
+        "available_date": "'2025-05-19'",
+        "start_time": "'16:00:00'",
+        "end_time": "'17:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "10",
+        "available_date": "'2025-05-20'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "11",
+        "available_date": "'2025-05-20'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "11",
+        "available_date": "'2025-05-20'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "12",
+        "available_date": "'2025-05-20'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "12",
+        "available_date": "'2025-05-21'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "13",
+        "available_date": "'2025-05-21'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "13",
+        "available_date": "'2025-05-21'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "14",
+        "available_date": "'2025-05-21'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "14",
+        "available_date": "'2025-05-22'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "15",
+        "available_date": "'2025-05-22'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "15",
+        "available_date": "'2025-05-22'",
+        "start_time": "'16:00:00'",
+        "end_time": "'17:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "16",
+        "available_date": "'2025-05-22'",
+        "start_time": "'12:00:00'",
+        "end_time": "'13:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "16",
+        "available_date": "'2025-05-23'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "17",
+        "available_date": "'2025-05-23'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "17",
+        "available_date": "'2025-05-23'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "18",
+        "available_date": "'2025-05-23'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "18",
+        "available_date": "'2025-05-24'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "19",
+        "available_date": "'2025-05-24'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "19",
+        "available_date": "'2025-05-24'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "20",
+        "available_date": "'2025-05-24'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "20",
+        "available_date": "'2025-05-25'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "21",
+        "available_date": "'2025-05-25'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "21",
+        "available_date": "'2025-05-25'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "22",
+        "available_date": "'2025-05-25'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "22",
+        "available_date": "'2025-05-26'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "23",
+        "available_date": "'2025-05-26'",
+        "start_time": "'09:30:00'",
+        "end_time": "'10:30:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "23",
+        "available_date": "'2025-05-26'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "24",
+        "available_date": "'2025-05-26'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "24",
+        "available_date": "'2025-05-27'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "25",
+        "available_date": "'2025-05-27'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "25",
+        "available_date": "'2025-05-27'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "26",
+        "available_date": "'2025-05-27'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "26",
+        "available_date": "'2025-05-28'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "27",
+        "available_date": "'2025-05-28'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "27",
+        "available_date": "'2025-05-28'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "28",
+        "available_date": "'2025-05-28'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "28",
+        "available_date": "'2025-05-29'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "29",
+        "available_date": "'2025-05-29'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "29",
+        "available_date": "'2025-05-29'",
+        "start_time": "'16:00:00'",
+        "end_time": "'17:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "30",
+        "available_date": "'2025-05-29'",
+        "start_time": "'12:00:00'",
+        "end_time": "'13:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "30",
+        "available_date": "'2025-05-30'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "31",
+        "available_date": "'2025-05-30'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "31",
+        "available_date": "'2025-05-30'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "32",
+        "available_date": "'2025-05-30'",
+        "start_time": "'10:30:00'",
+        "end_time": "'11:30:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "32",
+        "available_date": "'2025-05-31'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "33",
+        "available_date": "'2025-05-31'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "33",
+        "available_date": "'2025-05-31'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "34",
+        "available_date": "'2025-05-31'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "34",
+        "available_date": "'2025-06-01'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "35",
+        "available_date": "'2025-06-01'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "35",
+        "available_date": "'2025-06-01'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "36",
+        "available_date": "'2025-06-01'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "36",
+        "available_date": "'2025-06-02'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "37",
+        "available_date": "'2025-06-02'",
+        "start_time": "'09:30:00'",
+        "end_time": "'10:30:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "37",
+        "available_date": "'2025-06-02'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "38",
+        "available_date": "'2025-06-02'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "38",
+        "available_date": "'2025-06-03'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "39",
+        "available_date": "'2025-06-03'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "39",
+        "available_date": "'2025-06-03'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "40",
+        "available_date": "'2025-06-03'",
+        "start_time": "'16:00:00'",
+        "end_time": "'17:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "40",
+        "available_date": "'2025-06-04'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "41",
+        "available_date": "'2025-06-04'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "41",
+        "available_date": "'2025-06-04'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "42",
+        "available_date": "'2025-06-04'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "42",
+        "available_date": "'2025-06-05'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "43",
+        "available_date": "'2025-06-05'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "43",
+        "available_date": "'2025-06-05'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "44",
+        "available_date": "'2025-06-05'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "44",
+        "available_date": "'2025-06-06'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "45",
+        "available_date": "'2025-06-06'",
+        "start_time": "'15:00:00'",
+        "end_time": "'16:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "45",
+        "available_date": "'2025-06-06'",
+        "start_time": "'16:00:00'",
+        "end_time": "'17:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "46",
+        "available_date": "'2025-06-06'",
+        "start_time": "'12:00:00'",
+        "end_time": "'13:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "46",
+        "available_date": "'2025-06-07'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "47",
+        "available_date": "'2025-06-07'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "47",
+        "available_date": "'2025-06-07'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "48",
+        "available_date": "'2025-06-07'",
+        "start_time": "'10:00:00'",
+        "end_time": "'11:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "48",
+        "available_date": "'2025-06-08'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "49",
+        "available_date": "'2025-06-08'",
+        "start_time": "'11:00:00'",
+        "end_time": "'12:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "49",
+        "available_date": "'2025-06-08'",
+        "start_time": "'13:00:00'",
+        "end_time": "'14:00:00'",
+        "is_booked": "FALSE"
+      },
+      {
+        "doctor_id": "50",
+        "available_date": "'2025-06-08'",
+        "start_time": "'14:00:00'",
+        "end_time": "'15:00:00'",
+        "is_booked": "TRUE"
+      },
+      {
+        "doctor_id": "50",
+        "available_date": "'2025-06-09'",
+        "start_time": "'09:00:00'",
+        "end_time": "'10:00:00'",
+        "is_booked": "FALSE"
+      }
+    ],
+    "reviews": [
+      {
+        "patient_id": "1",
+        "doctor_id": "1",
+        "rating": "5",
+        "comment": "'Excellent doctor"
+      },
+      {
+        "patient_id": "2",
+        "doctor_id": "2",
+        "rating": "4",
+        "comment": "'Great with kids"
+      },
+      {
+        "patient_id": "3",
+        "doctor_id": "3",
+        "rating": "5",
+        "comment": "'Solved my skin issue quickly.'"
+      },
+      {
+        "patient_id": "4",
+        "doctor_id": "4",
+        "rating": "4",
+        "comment": "'Professional and knowledgeable about sports injuries.'"
+      },
+      {
+        "patient_id": "5",
+        "doctor_id": "5",
+        "rating": "5",
+        "comment": "'Very understanding and provided helpful strategies.'"
+      },
+      {
+        "patient_id": "6",
+        "doctor_id": "6",
+        "rating": "5",
+        "comment": "'Highly recommend for cardiac care.'"
+      },
+      {
+        "patient_id": "7",
+        "doctor_id": "7",
+        "rating": "4",
+        "comment": "'Helped with my digestive problems.'"
+      },
+      {
+        "patient_id": "8",
+        "doctor_id": "8",
+        "rating": "3",
+        "comment": "'Good"
+      },
+      {
+        "patient_id": "9",
+        "doctor_id": "9",
+        "rating": "5",
+        "comment": "'Compassionate and supportive through treatment.'"
+      },
+      {
+        "patient_id": "10",
+        "doctor_id": "10",
+        "rating": "4",
+        "comment": "'Effective treatment for my UTI.'"
+      },
+      {
+        "patient_id": "11",
+        "doctor_id": "11",
+        "rating": "5",
+        "comment": "'Clear explanation of my condition.'"
+      },
+      {
+        "patient_id": "12",
+        "doctor_id": "12",
+        "rating": "4",
+        "comment": "'Improved my breathing significantly.'"
+      },
+      {
+        "patient_id": "13",
+        "doctor_id": "13",
+        "rating": "5",
+        "comment": "'Much relief from joint pain.'"
+      },
+      {
+        "patient_id": "14",
+        "doctor_id": "14",
+        "rating": "4",
+        "comment": "'Thorough kidney function check.'"
+      },
+      {
+        "patient_id": "15",
+        "doctor_id": "15",
+        "rating": "5",
+        "comment": "'Professional eye exam.'"
+      },
+      {
+        "patient_id": "16",
+        "doctor_id": "16",
+        "rating": "4",
+        "comment": "'Quick and effective treatment for sore throat.'"
+      },
+      {
+        "patient_id": "17",
+        "doctor_id": "17",
+        "rating": "5",
+        "comment": "'Excellent care for elderly patients.'"
+      },
+      {
+        "patient_id": "18",
+        "doctor_id": "18",
+        "rating": "4",
+        "comment": "'Very knowledgeable about rare infections.'"
+      },
+      {
+        "patient_id": "19",
+        "doctor_id": "19",
+        "rating": "5",
+        "comment": "'Accurate allergy testing.'"
+      },
+      {
+        "patient_id": "20",
+        "doctor_id": "20",
+        "rating": "4",
+        "comment": "'Great advice for my sports injury recovery.'"
+      },
+      {
+        "patient_id": "21",
+        "doctor_id": "21",
+        "rating": "5",
+        "comment": "'Provided great relief from chronic pain.'"
+      },
+      {
+        "patient_id": "22",
+        "doctor_id": "22",
+        "rating": "4",
+        "comment": "'Rehabilitation sessions were very beneficial.'"
+      },
+      {
+        "patient_id": "23",
+        "doctor_id": "23",
+        "rating": "5",
+        "comment": "'Smooth pre-op assessment.'"
+      },
+      {
+        "patient_id": "24",
+        "doctor_id": "24",
+        "rating": "4",
+        "comment": "'Clear explanation of X-ray results.'"
+      },
+      {
+        "patient_id": "25",
+        "doctor_id": "25",
+        "rating": "5",
+        "comment": "'Fast and efficient urgent care.'"
+      },
+      {
+        "patient_id": "26",
+        "doctor_id": "26",
+        "rating": "5",
+        "comment": "'Very attentive and thorough family physician.'"
+      },
+      {
+        "patient_id": "27",
+        "doctor_id": "27",
+        "rating": "4",
+        "comment": "'Understood my child''s complex needs.'"
+      },
+      {
+        "patient_id": "28",
+        "doctor_id": "28",
+        "rating": "5",
+        "comment": "'Skilled surgeon"
+      },
+      {
+        "patient_id": "29",
+        "doctor_id": "29",
+        "rating": "4",
+        "comment": "'Helpful and informative fertility advice.'"
+      },
+      {
+        "patient_id": "30",
+        "doctor_id": "30",
+        "rating": "5",
+        "comment": "'Performed a complex surgery with great success.'"
+      },
+      {
+        "patient_id": "31",
+        "doctor_id": "31",
+        "rating": "4",
+        "comment": "'Provided realistic expectations for the procedure.'"
+      },
+      {
+        "patient_id": "32",
+        "doctor_id": "32",
+        "rating": "5",
+        "comment": "'Compassionate approach to mental health in seniors.'"
+      },
+      {
+        "patient_id": "33",
+        "doctor_id": "33",
+        "rating": "5",
+        "comment": "'Excellent follow-up after cardiac procedure.'"
+      },
+      {
+        "patient_id": "34",
+        "doctor_id": "34",
+        "rating": "4",
+        "comment": "'Very knowledgeable about spinal issues.'"
+      },
+      {
+        "patient_id": "35",
+        "doctor_id": "35",
+        "rating": "5",
+        "comment": "'Great understanding of adolescent health concerns.'"
+      },
+      {
+        "patient_id": "36",
+        "doctor_id": "36",
+        "rating": "4",
+        "comment": "'Helped with my hand injury recovery.'"
+      },
+      {
+        "patient_id": "37",
+        "doctor_id": "37",
+        "rating": "5",
+        "comment": "'Insightful analysis of my sleep patterns.'"
+      },
+      {
+        "patient_id": "38",
+        "doctor_id": "38",
+        "rating": "4",
+        "comment": "'Provided comforting and supportive care.'"
+      },
+      {
+        "patient_id": "39",
+        "doctor_id": "39",
+        "rating": "5",
+        "comment": "'Clear and honest consultation for weight loss surgery.'"
+      },
+      {
+        "patient_id": "40",
+        "doctor_id": "40",
+        "rating": "4",
+        "comment": "'Professional and reassuring about my thyroid condition.'"
+      },
+      {
+        "patient_id": "41",
+        "doctor_id": "41",
+        "rating": "5",
+        "comment": "'Thorough vascular health assessment.'"
+      },
+      {
+        "patient_id": "42",
+        "doctor_id": "42",
+        "rating": "4",
+        "comment": "'Identified the cause of my rare infection.'"
+      },
+      {
+        "patient_id": "43",
+        "doctor_id": "43",
+        "rating": "3",
+        "comment": "'A bit formal"
+      },
+      {
+        "patient_id": "44",
+        "doctor_id": "44",
+        "rating": "5",
+        "comment": "'Provided great clarity on genetic risks.'"
+      },
+      {
+        "patient_id": "45",
+        "doctor_id": "45",
+        "rating": "4",
+        "comment": "'Attentive care during critical recovery.'"
+      },
+      {
+        "patient_id": "46",
+        "doctor_id": "46",
+        "rating": "5",
+        "comment": "'Excellent in diagnosing childhood infections.'"
+      },
+      {
+        "patient_id": "47",
+        "doctor_id": "47",
+        "rating": "4",
+        "comment": "'Good management of my autoimmune condition.'"
+      },
+      {
+        "patient_id": "48",
+        "doctor_id": "48",
+        "rating": "5",
+        "comment": "'Helped improve my athletic performance.'"
+      },
+      {
+        "patient_id": "49",
+        "doctor_id": "49",
+        "rating": "4",
+        "comment": "'Clear explanation of dermatopathology results.'"
+      },
+      {
+        "patient_id": "50",
+        "doctor_id": "50",
+        "rating": "5",
+        "comment": "'Very helpful in understanding inherited conditions.'"
+      }
+    ]
+  }
