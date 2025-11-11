@@ -162,22 +162,133 @@ app.get("/doctors/:id", (req, res) => {
   });
 }); 
 
-// ===================== Add Task 7 code here ===================== 
+
+// ===================== User Signup ===================== 
+app.post("/signup", (req, res) => {
+  const { username, password, dob, email } = req.body;
+
+  const sql = `
+    INSERT INTO patients (name, email, password, dob)
+    VALUES (?, ?, ?, ?)
+  `;
+
+  db.query(sql, [username, email, password, dob], (err, result) => {
+    if (err) {
+      // Handle database errors like duplicate email or connection issue
+      return res.status(500).json({ error: err.message });
+    }
+
+    // Respond with success message if insertion succeeds
+    res.status(201).json({ message: "User registered successfully" });
+  });
+});
+
+// ===================== User Login ===================== 
+app.post("/login", (req, res) => {
+  const { email, password } = req.body;
+
+  // SQL query to find user by email and password
+  const sql = `
+    SELECT id FROM patients
+    WHERE email = ? AND password = ?
+  `;
+
+  db.query(sql, [email, password], (err, results) => {
+    if (err) {
+      console.error("Database error:", err);
+      return res.status(500).json({ success: false, error: err.message });
+    }
+    // Check if exactly one matching user is found
+    if (results.length === 1) {
+      res.json({ success: true, userId: results[0].id });
+    } else {
+      res.status(401).json({ success: false, message: "Invalid credentials" });
+    }
+  });
+});
+
+// ===================== Appointment Routes ===================== 
+
+/**
+ *  GET /appointments/user/:userId
+ * Fetch all appointments for a specific user
+ * - Accepts user ID as a route parameter
+ * - Joins appointments with doctor details to return the doctor’s name
+ * - Orders results by most recent appointment date and time
+ */
+ app.get("/appointments/user/:userId", (req, res) => {
+  const { userId } = req.params;
+
+  const sql = `
+    SELECT 
+      a.id, 
+      a.appointment_date, 
+      a.time_slot, 
+      a.reason, 
+      d.name AS doctor_name
+    FROM appointments a
+    JOIN doctors d ON a.doctor_id = d.id
+    WHERE a.patient_id = ?
+    ORDER BY a.appointment_date DESC, a.time_slot ASC
+  `;
+
+  db.query(sql, [userId], (err, results) => {
+    if (err) return res.status(500).json({ error: err.message });
+    res.json(results);
+  });
+});
+
+/**
+ * DELETE /appointments/:id
+ * Delete a specific appointment by its ID
+ * - Accepts appointment ID as a route parameter
+ * - Executes a DELETE SQL query.
+ */
+app.delete("/appointments/:id", (req, res) => {
+  const { id } = req.params;
+
+  db.query("DELETE FROM appointments WHERE id = ?", [id], (err) => {
+    if (err) return res.status(500).json({ error: err.message });
+    res.json({ message: "Appointment deleted successfully" });
+  });
+});
+
+/**
+ * POST /book-appointment
+ * Book a new appointment.
+ * - Extracts `patientId`, `doctorId`, `date`, `time`, and `reason` from `req.body`
+ * - Inserts new appointment into the `appointments` table
+ */
+app.post("/book-appointment", (req, res) => {
+  const { patientId, doctorId, date, time, reason } = req.body;
+
+  // Basic validation
+  if (!patientId || !doctorId || !date || !time || !reason) {
+    return res.status(400).json({ error: "All fields are required." });
+  }
+
+  const query = `
+    INSERT INTO appointments (patient_id, doctor_id, appointment_date, time_slot, reason)
+    VALUES (?, ?, ?, ?, ?)
+  `;
+
+  db.query(query, [patientId, doctorId, date, time, reason], (err, result) => {
+    if (err) {
+      console.error("Database error:", err);
+      return res.status(500).json({ error: "Database error" });
+    }
+
+    res.status(200).json({ 
+      message: "Appointment booked successfully", 
+      appointmentId: result.insertId 
+    });
+  });
+});
 
 
-// ===================== Add Task 8 code here ===================== 
 
 
-// ===================== Add Task 10 code here ===================== 
-
-
-// ===================== Add Task 11 code here ===================== 
-
-
-// ===================== Add Task 12 code here ===================== 
-
-
-// === Task 5: Establish the database connection and error handling here === 
+// ===  Establish the database connection and error handling here === 
 
 db.connect((err) => {
   if (err) throw err;
@@ -185,7 +296,7 @@ db.connect((err) => {
 });
 
 
-// ===================== Task 5: Start the Server here ===================== 
+// =====================  Start the Server here ===================== 
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running at http://0.0.0.0:${port}`);
 });
