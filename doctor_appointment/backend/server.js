@@ -293,6 +293,16 @@ db.connect((err) => {
   console.log("Connected to MySQL");
 });
 
+// LangChain imports
+
+const {ChatGoogleGenerativeAI} = require('@langchain/google-genai');
+
+// Initialize Chat model
+const chatModel = new ChatGoogleGenerativeAI({
+  model: 'gemini-2.5-flash',
+  apiKey:process.env.GEMINI_API_KEY,
+  temperature: 0
+});
 
 // =====================  Start the Server here ===================== 
 app.listen(port, "0.0.0.0", () => {
