@@ -286,8 +286,6 @@ app.post("/book-appointment", (req, res) => {
 });
 
 
-
-
 // ===  Establish the database connection and error handling here === 
 
 db.connect((err) => {
