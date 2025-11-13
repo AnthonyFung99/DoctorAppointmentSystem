@@ -304,6 +304,105 @@ const chatModel = new ChatGoogleGenerativeAI({
   temperature: 0
 });
 
+const {
+  initializeVectorStore,
+  getVectorStore
+} = require('./chatbot-service'); // Adjust path if needed
+
+const { ChatPromptTemplate } = require('@langchain/core/prompts');
+const { StringOutputParser } = require('@langchain/core/output_parsers');
+
+app.post('/chat', async (req, res) => {
+  const { message } = req.body;
+  console.log("chat bot");
+
+  if (!message || typeof message !== 'string' || !message.trim()) {
+    return res.status(400).json({ error: 'Please enter a valid message about the project.' });
+  }
+
+  const trimmedMessage = message.trim();
+  const lowerMessage = trimmedMessage.toLowerCase();
+
+  const greetingRegex = /^(hi|hello|hey|greetings|how are you|what's up)\b/i;
+  if (greetingRegex.test(lowerMessage)) {
+    return res.json({
+      reply: `Hi, I'm your API assistant. Feel free to ask me anything about the doctor appointment project!`,
+      context: [],
+      source: "greeting"
+    });
+  }
+
+  const vectorStore = getVectorStore();
+  if (!vectorStore) {
+    return res.status(503).json({ error: 'Project data is still loading. Please try again shortly.' });
+  }
+
+  try {
+    console.log(`📩 User question: "${message}"`);
+    const relevantDocs = await vectorStore.similaritySearch(trimmedMessage, 5);
+
+    if (relevantDocs.length === 0) {
+      return res.json({
+        reply: "I couldn't find any relevant information in the project description for your question. Please ask something else.",
+        context: []
+      });
+    }
+
+    const projectContext = relevantDocs.map(doc => doc.pageContent).join('\n---\n');
+
+    const strictPrompt = ChatPromptTemplate.fromPromptMessages([
+      { role: "system", content: `
+          You are an AI assistant for a doctor appointment API. Use ONLY the project data below to answer.
+
+          Rules:
+          - Only answer using the info in "Project Data".
+          - If data doesn't cover the question, say: "I don't have that information in the project description. Please ask something else."
+          - No guessing or hallucinating.
+
+          Project Data:
+          {projectContext}
+      ` },
+      { role: "user", content: "{question}" }
+    ]);
+
+    const messages = await strictPrompt.formatMessages({
+      projectContext,
+      question: trimmedMessage
+    });
+
+    const aiResponse = await chatModel.call(messages);
+
+    console.log('Response:', aiResponse);
+
+    res.json({
+      reply: aiResponse.text || aiResponse,
+      context: relevantDocs.map(doc => doc.pageContent)
+    });
+
+  } catch (error) {
+    console.error('Error processing question:', error.message);
+    res.status(500).json({
+      error: 'Error processing your question',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
+  }
+});
+
+// Start the server only after vector store is ready
+async function startServer() {
+  await initializeVectorStore();  // Load and embed project description
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+    console.log('Vector store ready for project description');
+  });
+}
+
+// Kick off the async initialization + server start process
+startServer();
+
+// Export the app instance for use in tests or other modules
+module.exports = app;
+
 // =====================  Start the Server here ===================== 
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running at http://0.0.0.0:${port}`);
